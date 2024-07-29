@@ -208,3 +208,18 @@ section {
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
+/* ABOUT SECTION */
+#about {
+  position: relative;
+}
+.about-containers {
+  gap: 2rem;
+}
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+.about-containers,
+.about-details-container {
+  display: flex;
+}
